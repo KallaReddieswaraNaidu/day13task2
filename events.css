@@ -1,0 +1,121 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+.container{
+    margin: 240px auto;
+    width: 100%;
+    height:600px;;
+    position: relative;
+background-color:rgb(24, 214, 214);
+text-decoration:none;
+list-style: none;
+    
+}
+.ini{
+    border: 4px solid;
+    margin:15px 15px;
+    box-sizing: border-box;
+    height: 95%;
+}
+.ini  h3{
+    text-align: center;
+}
+.ini  h2{
+    text-align: center;
+}
+
+.container .box{
+    position: relative;
+    width: calc(1400px - 30px);
+    height:calc(600px - 30px);
+    background:rgb(190, 175, 175);
+    float:left;
+    margin:15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    list-style: none;
+}
+.header{
+    text-align: center;
+    color:brown
+}
+#first{
+    position: relative;
+    width:90%;
+    height:70%;
+    color:rgb(228, 102, 102);
+    float:left;
+    margin:15px;
+    box-sizing: border-box;
+    border: solid;
+    list-style: none;
+}
+#second{
+    position: relative;
+    width:20%;
+    height:60%;
+    color:rgb(228, 102, 102);
+    float:left;
+    margin:45px 105px;
+    box-sizing: border-box;
+    border: solid;
+    list-style: none;
+   
+}
+#third{
+    border: solid;
+    position: relative;
+    width: 50%;
+    height:50%;
+    color:rgb(0, 0, 0);
+    float:left;
+    margin:45px 25px;
+    box-sizing: border-box;
+    border: solid;
+    border-radius: 100px;
+    list-style: none;
+    text-align: center;
+}
+#third li{
+    text-align: left;
+    padding-top:35px;
+    padding-left: 0px;
+    align-items: left;
+    
+}
+.form{
+    float:right;
+    margin:55px 25px;
+    align-items:flex-start;
+    color:black
+}
+.form label{
+    text-align: right;
+    margin:10px 25px;
+}
+.form input{
+    margin:10px 95px;
+}
+#phone{
+    margin:10px 65px;
+}
+#seats{
+    margin:10px 15px;
+}
+#name2{
+    margin:10px 5px; 
+}
+.button{
+    margin:10px 200px;
+color:greenyellow;
+}
+#cancel{
+    margin:10px 225px;  
+    color:greenyellow;
+}
+button{
+    color:rgb(233, 235, 227);
+    background-color:rgba(164, 79, 30, 0.92);
+}
